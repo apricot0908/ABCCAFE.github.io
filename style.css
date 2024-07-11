@@ -64,6 +64,7 @@ img {
 iframe {
     width: 100%;
 }
+
 /* ヘッダー
 ------------------------------- */
 .page-header {
@@ -234,6 +235,12 @@ margin-bottom: 1.5rem;
 .sns-item .heading-medium {
     margin-bottom: .5rem;
 }
+.sns-youtube {
+    aspect-ratio: 16/9;
+}
+.sns-youtube iframe {
+    height: 100%;
+}
 
 /* フッター 
 ------------------------------- */
@@ -317,17 +324,11 @@ margin-bottom: 1.5rem;
         justify-content: space-between;
     }
     .post {
-        width: 60%;
-        order: 2;
+        width: 70%;
     }
     .sidebar {
         width: 22%;
-        order: 3;
     }
-    .ad {
-        order: 1;
-    }
-
     .sidebar .heading-medium {
         line-height: 1;
         margin-bottom: 1rem;
